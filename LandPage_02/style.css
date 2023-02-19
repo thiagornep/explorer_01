@@ -3,20 +3,27 @@
   margin: 0%;
   box-sizing: border-box;
 }
+
+:root {
+  --text-color: #89c5cc;
+}
+
 body {
 }
 header {
+  display: flex;
   border: 1px solid rgb(0, 0, 0);
+  align-items: center;
 }
 
 #logotreino {
-  color: #89c5cc;
+  color: var(--text-color);
   font-family: "Inter", sans-serif;
   width: 103px;
   height: 22px;
   font-size: 22px;
   line-height: 26px;
-
+  border: 1px solid rgb(0, 0, 0);
   margin-left: 122px;
   margin-top: 65px;
 }
@@ -26,23 +33,31 @@ header {
   width: 267px;
   height: 23px;
   border: 1px solid red;
-  text-align: ;
+  margin-top: 65px;
+  margin-left: 44%;
+}
+
+button {
+  display: block;
 }
 
 #logo {
   display: flex;
-  background-color: black;
+
   border: 1px solid red;
   margin: auto;
 }
 
 #content {
   display: flex;
+  margin-top: 109px;
+  border: 1px solid blue;
 }
 
 #content-left {
   width: 50vh;
   margin: auto;
+  margin-left: 119px;
 }
 
 #content-left h1 {
@@ -51,6 +66,10 @@ header {
 }
 #content-left h2 {
   font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 28px;
+  color: #7d7987;
 }
 
 #destacado {
@@ -62,10 +81,15 @@ footer {
   background-color: aqua;
   width: 592px;
   margin: auto;
+  margin-top: 5px;
   height: 28px;
 }
 p {
   margin: auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 28px;
 }
 
 #whatsapp {
