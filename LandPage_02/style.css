@@ -16,9 +16,10 @@ header {
   display: flex;
   border: 1px solid rgb(0, 0, 0);
   align-items: center;
+  justify-content: space-between;
 }
 
-#logotreino {
+#logotreineme {
   color: var(--text-color);
   font-family: "Inter", sans-serif;
   width: 103px;
@@ -32,11 +33,16 @@ header {
   display: flex;
   width: 267px;
   height: 23px;
-  border: 1px solid red;
+  justify-content: space-between;
 }
 
 button {
   display: block;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  border-style: none;
+  font-weight: 400px;
+  line-height: 22.59px;
 }
 
 #logo {
@@ -48,26 +54,49 @@ button {
 
 #content {
   display: flex;
-  margin-top: 109px;
+  margin-top: 110px;
   border: 1px solid blue;
-}
-
-#content-left {
-  width: 50vh;
-  margin: auto;
-  margin-left: 119px;
+  justify-content: space-between;
 }
 
 #content-left h1 {
   font-family: "Mulish", sans-serif;
-  margin-bottom: 40px;
+  width: 489px;
+  height: 112px;
+  border: 1px solid red;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: 400;
 }
 #content-left h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  font-style: normal;
   line-height: 28px;
   color: #7d7987;
+  width: 438px;
+  height: 84px;
+  margin-top: 40px;
+}
+
+#whatsapp {
+  display: block;
+  border-radius: 4px;
+  width: 179px;
+  height: 56px;
+  margin-top: 40px;
+  background-color: #10fba9;
+  text-align: center;
+}
+
+#whatsapp img {
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+}
+
+#whatsapp p {
+  display: inline;
+  border: 1px solid red;
 }
 
 #destacado {
@@ -88,9 +117,4 @@ p {
   font-size: 14px;
   font-style: normal;
   line-height: 28px;
-}
-
-#whatsapp {
-  background-color: black;
-  width: fit-content;
 }
