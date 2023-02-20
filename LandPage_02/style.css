@@ -85,18 +85,19 @@ button {
   height: 56px;
   margin-top: 40px;
   background-color: #10fba9;
-  text-align: center;
+  
 }
 
 #whatsapp img {
   display: flex;
   align-items: center;
   border: 1px solid red;
+  
 }
 
 #whatsapp p {
   display: inline;
-  border: 1px solid red;
+  border: 1px solid rgb(237, 189, 17);
 }
 
 #destacado {
